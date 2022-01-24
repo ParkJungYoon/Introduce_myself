@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1 a { 
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: 'Nanum Brush Script', cursive;
+    padding-left: 8px;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 12px 8px 0 0;
+}
+ul li {
+    padding: 0 20px;
+}
+ul li a {
+    text-decoration: none;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 13px;
+}
+nav a { 
+    text-decoration: none;
+    color: black;
+}
+article {
+    height: 450px;
+    padding-top: 50px;
+    background-color: #ECF8FE;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ECF8FE; */
+}
+
+#hi {
+    font-size : 60px;
+    font-weight: bolder;
+    animation-name: FadeInOpacity;
+    animation-duration: 3s;
+}
+#article {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+.pic { 
+    padding-right: 20px; 
+    /* border: 4px solid red;  */
+    animation-name: FadeInOpacity;
+    animation-duration: 3s;
+} 
+
+@keyframes FadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+footer {
+    /* background-color: #ECF8FE; */
+}
+.but {
+    border: 2px solid black;
+    margin-left: 15px;
+    border-radius: 3px;
+    display: flex;
+}
